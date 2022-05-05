@@ -9,11 +9,13 @@ import static io.restassured.RestAssured.*;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.commons.lang3.ArrayUtils;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.testng.Assert;
@@ -29,7 +31,8 @@ import com.weavapi.utilities.ReadConfig;
 public class TC_002_get_row_all_files extends   TC_001_Add_by_path{
 	
 	Response response;
-	JsonPath js;
+	public static JsonPath js;
+	String filename=Parse_json_body.file_name;
   
 	
     
@@ -107,7 +110,7 @@ public class TC_002_get_row_all_files extends   TC_001_Add_by_path{
 		void checkRowCount()
 		{
 			logger.info("***********  Checking Row   Count **********");
-			int count=js.getInt("data[\"tinder.parquet\"].data.size()");
+			int count=js.getInt("data[\""+filename+"\"].data.size()");
 			Assert.assertEquals(count,Parse_json_body.Row_count);
 		}
 		
@@ -118,13 +121,13 @@ public class TC_002_get_row_all_files extends   TC_001_Add_by_path{
 			logger.info("***********  Checking Column Names **********");
 			
 			Map<String, Integer> datamap = new HashMap<String, Integer>();
-			datamap=(js.get("data[\"tinder.parquet\"].data[0]"));
+			datamap=(js.get("data[\""+filename+"\"].data[0]"));
 			List<String> datacolumnname = new ArrayList<String>();
 			for ( String key : datamap.keySet() ) 
 			{
 				datacolumnname.add(key);
 			}
-	         System.out.println(datacolumnname);  
+	         //System.out.println(datacolumnname);  
 				
 				  boolean boolval= datacolumnname.containsAll(Parse_json_body.myList);
 				  Assert.assertTrue(boolval);
@@ -132,6 +135,161 @@ public class TC_002_get_row_all_files extends   TC_001_Add_by_path{
 			 
 			
 		}
+		
+		
+		@Test
+		void checkSortcolumn()
+		{
+			
+			logger.info("***********  Checking Sorted  Columns **********");
+			
+			String columnname=Parse_json_body.sort_column;
+			System.out.println(columnname);
+			String sortorder=Parse_json_body.order;
+			boolean bool;
+			int size=js.getInt("data[\""+filename+"\"].data.size()");
+			
+			
+			//Object value=js.get("data[\""+filename+"\"].data[0]."+columnname+"");
+			
+			Object value=js.get("data[\""+filename+"\"].data[0][\""+columnname+"\"]");
+			//js.get("data[\"tinder.parquet\"].data[0].Count")
+			
+			System.out.println(value);
+			
+			String dataType = value.getClass().getSimpleName();
+			System.out.println(dataType);
+			
+			if(dataType.equalsIgnoreCase("Integer"))
+			{
+			int strAr1;
+			List<Integer> columnlist = new ArrayList<Integer>();
+			
+			for (int i=0;i<size;i++)
+			{
+				//strAr1=(js.get("data[\""+filename+"\"].data["+i+"]."+columnname+""));
+				strAr1=js.get("data[\""+filename+"\"].data["+i+"][\""+columnname+"\"]");
+			
+				
+			
+				
+				columnlist.add(strAr1);
+		   }
+			
+			List <Integer> copy = new ArrayList<Integer>(columnlist);
+			if(sortorder =="ASC")
+			{
+			Collections.sort(copy);
+			}
+			else if(sortorder =="DSC")
+			{
+				Collections.sort(copy, Collections.reverseOrder());
+			}
+			bool=copy.equals(columnlist);
+			Assert.assertTrue(bool);
+			
+			}
+			
+			else if (dataType.equalsIgnoreCase("String"))
+			{
+			String strAr1;
+			List<String> columnlist = new ArrayList<String>();
+			
+			for (int i=0;i<size;i++)
+			{
+				//strAr1=(js.get("data[\""+filename+"\"].data["+i+"]."+columnname+""));
+				strAr1=js.get("data[\""+filename+"\"].data["+i+"][\""+columnname+"\"]");
+			
+				
+				columnlist.add(strAr1);
+		   }
+			
+			System.out.println(columnlist);
+			List <String> copy = new ArrayList<String>(columnlist);
+			if (sortorder =="ASC")
+			{
+			Collections.sort(copy);
+			
+			}
+			else if(sortorder =="DSC")
+			{
+				Collections.sort(copy, Collections.reverseOrder());
+				System.out.println(copy);
+			}
+			    bool=copy.equals(columnlist);
+			    Assert.assertTrue(bool);
+			
+			}
+			
+			
+			else if(dataType.equalsIgnoreCase("Boolean"))
+			{
+				boolean strAr1;
+			List<Boolean> columnlist = new ArrayList<Boolean>();
+			
+			for (int i=0;i<size;i++)
+			{
+				//strAr1=(js.get("data[\""+filename+"\"].data["+i+"]."+columnname+""));
+				strAr1=js.get("data[\""+filename+"\"].data["+i+"][\""+columnname+"\"]");
+			
+				
+			
+				
+				columnlist.add(strAr1);
+		   }
+			
+			List <Boolean> copy = new ArrayList<Boolean>(columnlist);
+			System.out.println(columnlist);
+			if(sortorder =="ASC")
+			{
+			Collections.sort(copy);
+			}
+			else if(sortorder =="DSC")
+			{
+				Collections.sort(copy, Collections.reverseOrder());
+				System.out.println(columnlist);
+			}
+			bool=copy.equals(columnlist);
+			Assert.assertTrue(bool);
+			
+			}
+			
+			
+			else if(dataType.equalsIgnoreCase("Float"))
+			{
+				float strAr1;
+			List<Float> columnlist = new ArrayList<Float>();
+			
+			for (int i=0;i<size;i++)
+			{
+				//strAr1=(js.get("data[\""+filename+"\"].data["+i+"]."+columnname+""));
+				strAr1=js.get("data[\""+filename+"\"].data["+i+"][\""+columnname+"\"]");
+			
+				
+			
+				
+				columnlist.add(strAr1);
+		   }
+			
+			List <Float> copy = new ArrayList<Float>(columnlist);
+			System.out.println(columnlist);
+			if(sortorder =="ASC")
+			{
+			Collections.sort(copy);
+			}
+			else if(sortorder =="DSC")
+			{
+				Collections.sort(copy, Collections.reverseOrder());
+				System.out.println(columnlist);
+			}
+			bool=copy.equals(columnlist);
+			Assert.assertTrue(bool);
+			
+			}
+			
+			
+		}
+		
 		
 		@AfterClass
 		void tearDown()

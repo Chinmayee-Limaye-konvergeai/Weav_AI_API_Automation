@@ -2,14 +2,17 @@ package com.weavapi.pojo;
 
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 
 public class add_body_pojo_get_row_all {
 	
 	private String dataset_id;
 	private String version_id;
 	private List<String> show_cols;
+	//@JsonIgnore
 	private List<RowFilter> row_filter;
-	private SortObj sort_obj;
+    private SortObj sort_obj;
 	private List<Defaultfilter> default_filter;
 	private String file_name;
 	private int row_count;

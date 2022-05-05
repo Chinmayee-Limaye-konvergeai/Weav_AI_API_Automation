@@ -13,20 +13,22 @@ import com.weavapi.testCases.Data_Browser_API.TC_001_Add_by_path;
 
 public class Parse_json_body {
 
-	public static int Row_count = 10;
-	static String file_name = "tinder.parquet";
+	public static int Row_count = 200;
+	public static String file_name = "tinder.parquet";
 	static String filter_name="remove_missing_values";
 	
 	public static List<String> myList = new ArrayList<String>();
-	static String[] strAr1 = new String[] { "Single", "Question", "Count", "Segment Description", "Answer",
+	static String[] columnarray = new String[] { "Single", "Question", "Count", "Segment Description", "Answer",
 			"Percentage", "Segment Type", "timestamp" };
-	static int sizes = strAr1.length;
+	static int sizes = columnarray.length;
 	static int lowerlimit =1;
 	static int upperlimit=50;
 	static String row_filter_columon="Count";
-	static String sort_column="Count";
 	static String datatype_rowfiltercolumn ="int";
-	static String order="ASC";
+	
+	public static String sort_column="Question";
+	
+	public static String order="DSC";
 	static int start_row=1;
 
 	/*
@@ -77,7 +79,7 @@ public class Parse_json_body {
 		pojoobj.setVersion_id(TC_001_Add_by_path.versionid);
 
 		for (int i = 0; i < sizes; i++) {
-			myList.add(strAr1[i]);
+			myList.add(columnarray[i]);
 
 		}
 		pojoobj.setShow_cols(myList);

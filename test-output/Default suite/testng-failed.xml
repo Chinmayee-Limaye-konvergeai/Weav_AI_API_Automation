@@ -5,7 +5,8 @@
     <classes>
       <class name="com.weavapi.testCases.Data_Browser_API.TC_002_get_row_all_files">
         <methods>
-          <include name="checkcolumns"/>
+          <include name="checkRowCount"/>
+          <include name="checkSortcolumn"/>
           <include name="tearDown"/>
           <include name="getrowapi"/>
           <include name="setup"/>

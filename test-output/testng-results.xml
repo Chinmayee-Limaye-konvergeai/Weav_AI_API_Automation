@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-05T01:48:23 IST" name="Default suite" finished-at="2022-05-05T01:48:30 IST" duration-ms="7402">
+    <groups>
+    </groups>
+    <test started-at="2022-05-05T01:48:23 IST" name="Default test" finished-at="2022-05-05T01:48:30 IST" duration-ms="7402">
+      <class name="com.weavapi.testCases.Data_Browser_API.TC_002_get_row_all_files">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.weavapi.testCases.Data_Browser_API.TC_002_get_row_all_files@fdefd3f]" started-at="2022-05-05T01:48:23 IST" name="setup" finished-at="2022-05-05T01:48:23 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="addbypath()[pri:0, instance:com.weavapi.testCases.Data_Browser_API.TC_002_get_row_all_files@fdefd3f]" started-at="2022-05-05T01:48:23 IST" name="addbypath" finished-at="2022-05-05T01:48:25 IST" duration-ms="1731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addbypath -->
+        <test-method is-config="true" signature="getrowapi()[pri:0, instance:com.weavapi.testCases.Data_Browser_API.TC_002_get_row_all_files@fdefd3f]" started-at="2022-05-05T01:48:25 IST" name="getrowapi" finished-at="2022-05-05T01:48:30 IST" duration-ms="5451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getrowapi -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.weavapi.testCases.Data_Browser_API.TC_002_get_row_all_files@fdefd3f]" started-at="2022-05-05T01:48:30 IST" name="checkResponseTime" finished-at="2022-05-05T01:48:30 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResposeBody()[pri:0, instance:com.weavapi.testCases.Data_Browser_API.TC_002_get_row_all_files@fdefd3f]" started-at="2022-05-05T01:48:30 IST" name="checkResposeBody" finished-at="2022-05-05T01:48:30 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkRowCount()[pri:0, instance:com.weavapi.testCases.Data_Browser_API.TC_002_get_row_all_files@fdefd3f]" started-at="2022-05-05T01:48:30 IST" name="checkRowCount" finished-at="2022-05-05T01:48:30 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRowCount -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.weavapi.testCases.Data_Browser_API.TC_002_get_row_all_files@fdefd3f]" started-at="2022-05-05T01:48:30 IST" name="checkStatusCode" finished-at="2022-05-05T01:48:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkcolumns()[pri:0, instance:com.weavapi.testCases.Data_Browser_API.TC_002_get_row_all_files@fdefd3f]" started-at="2022-05-05T01:48:30 IST" name="checkcolumns" finished-at="2022-05-05T01:48:30 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkcolumns -->
+        <test-method signature="checkstatusLine()[pri:0, instance:com.weavapi.testCases.Data_Browser_API.TC_002_get_row_all_files@fdefd3f]" started-at="2022-05-05T01:48:30 IST" name="checkstatusLine" finished-at="2022-05-05T01:48:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.weavapi.testCases.Data_Browser_API.TC_002_get_row_all_files@fdefd3f]" started-at="2022-05-05T01:48:30 IST" name="tearDown" finished-at="2022-05-05T01:48:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.weavapi.testCases.Data_Browser_API.TC_002_get_row_all_files -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

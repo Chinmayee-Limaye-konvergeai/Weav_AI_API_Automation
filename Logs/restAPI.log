@@ -1,0 +1,408 @@
+2022-05-02 19:05:40 INFO  WEAVAIAPI:38 - This is sample
+2022-05-03 10:11:21 INFO  WEAVAIAPI:38 - This is sample
+2022-05-03 13:57:47 INFO  WEAVAIAPI:38 - This is sample
+2022-05-03 14:16:53 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 14:16:55 INFO  WEAVAIAPI:100 - ***********  Checking Response Time **********
+2022-05-03 14:16:55 INFO  WEAVAIAPI:87 - ***********  Checking Respose Body **********
+2022-05-03 14:16:55 INFO  WEAVAIAPI:66 - ***********  Checking Status Code **********
+2022-05-03 14:16:55 INFO  WEAVAIAPI:76 - ***********  Checking Status Line **********
+2022-05-03 14:16:55 INFO  WEAVAIAPI:111 - *********  Finished TC_001_Add_by_path **********
+2022-05-03 14:31:02 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 14:31:03 INFO  WEAVAIAPI:100 - ***********  Checking Response Time **********
+2022-05-03 14:31:03 INFO  WEAVAIAPI:87 - ***********  Checking Respose Body **********
+2022-05-03 14:31:03 INFO  WEAVAIAPI:66 - ***********  Checking Status Code **********
+2022-05-03 14:31:03 INFO  WEAVAIAPI:76 - ***********  Checking Status Line **********
+2022-05-03 14:31:03 INFO  WEAVAIAPI:111 - *********  Finished TC_001_Add_by_path **********
+2022-05-03 14:31:03 INFO  WEAVAIAPI:32 - *********Started TC_002_get_row_all_files **********
+2022-05-03 15:23:53 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 15:23:55 INFO  WEAVAIAPI:100 - ***********  Checking Response Time **********
+2022-05-03 15:23:55 INFO  WEAVAIAPI:87 - ***********  Checking Respose Body **********
+2022-05-03 15:23:55 INFO  WEAVAIAPI:66 - ***********  Checking Status Code **********
+2022-05-03 15:23:55 INFO  WEAVAIAPI:76 - ***********  Checking Status Line **********
+2022-05-03 15:23:55 INFO  WEAVAIAPI:111 - *********  Finished TC_001_Add_by_path **********
+2022-05-03 15:50:19 INFO  WEAVAIAPI:33 - *********Started TC_002_get_row_all_files **********
+2022-05-03 15:50:21 INFO  WEAVAIAPI:115 - *********  Finished TC_001_Add_by_path **********
+2022-05-03 15:52:27 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 15:52:28 INFO  WEAVAIAPI:100 - ***********  Checking Response Time **********
+2022-05-03 15:52:28 INFO  WEAVAIAPI:87 - ***********  Checking Respose Body **********
+2022-05-03 15:52:28 INFO  WEAVAIAPI:66 - ***********  Checking Status Code **********
+2022-05-03 15:52:28 INFO  WEAVAIAPI:76 - ***********  Checking Status Line **********
+2022-05-03 15:52:28 INFO  WEAVAIAPI:111 - *********  Finished TC_001_Add_by_path **********
+2022-05-03 15:54:03 INFO  WEAVAIAPI:33 - *********Started TC_002_get_row_all_files **********
+2022-05-03 15:54:04 INFO  WEAVAIAPI:115 - *********  Finished TC_001_Add_by_path **********
+2022-05-03 15:57:34 INFO  WEAVAIAPI:33 - *********Started TC_002_get_row_all_files **********
+2022-05-03 15:57:35 INFO  WEAVAIAPI:115 - *********  Finished TC_001_Add_by_path **********
+2022-05-03 16:00:06 INFO  WEAVAIAPI:32 - *********Started TC_002_get_row_all_files **********
+2022-05-03 16:01:36 INFO  WEAVAIAPI:32 - *********Started TC_002_get_row_all_files **********
+2022-05-03 16:06:27 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 16:06:29 INFO  WEAVAIAPI:100 - ***********  Checking Response Time **********
+2022-05-03 16:06:29 INFO  WEAVAIAPI:87 - ***********  Checking Respose Body **********
+2022-05-03 16:06:29 INFO  WEAVAIAPI:66 - ***********  Checking Status Code **********
+2022-05-03 16:06:29 INFO  WEAVAIAPI:76 - ***********  Checking Status Line **********
+2022-05-03 16:06:29 INFO  WEAVAIAPI:111 - *********  Finished TC_001_Add_by_path **********
+2022-05-03 16:06:36 INFO  WEAVAIAPI:32 - *********Started TC_002_get_row_all_files **********
+2022-05-03 16:13:55 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 16:13:56 INFO  WEAVAIAPI:100 - ***********  Checking Response Time **********
+2022-05-03 16:13:56 INFO  WEAVAIAPI:87 - ***********  Checking Respose Body **********
+2022-05-03 16:13:56 INFO  WEAVAIAPI:66 - ***********  Checking Status Code **********
+2022-05-03 16:13:56 INFO  WEAVAIAPI:76 - ***********  Checking Status Line **********
+2022-05-03 16:13:56 INFO  WEAVAIAPI:111 - *********  Finished TC_001_Add_by_path **********
+2022-05-03 16:14:55 INFO  WEAVAIAPI:32 - *********Started TC_002_get_row_all_files **********
+2022-05-03 16:18:09 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 16:18:10 INFO  WEAVAIAPI:38 - *********Started TC_002_get_row_all_files **********
+2022-05-03 16:18:10 INFO  WEAVAIAPI:111 - *********  Finished TC_001_Add_by_path **********
+2022-05-03 16:19:40 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 16:19:42 INFO  WEAVAIAPI:34 - *********Started TC_002_get_row_all_files **********
+2022-05-03 16:19:42 INFO  WEAVAIAPI:111 - *********  Finished TC_001_Add_by_path **********
+2022-05-03 16:21:53 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 16:21:54 INFO  WEAVAIAPI:35 - *********Started TC_002_get_row_all_files **********
+2022-05-03 16:21:54 INFO  WEAVAIAPI:112 - *********  Finished TC_001_Add_by_path **********
+2022-05-03 16:24:29 INFO  WEAVAIAPI:35 - *********Started TC_002_get_row_all_files **********
+2022-05-03 16:25:30 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 16:25:31 INFO  WEAVAIAPI:35 - *********Started TC_002_get_row_all_files **********
+2022-05-03 16:25:31 INFO  WEAVAIAPI:112 - *********  Finished TC_001_Add_by_path **********
+2022-05-03 16:26:10 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 16:26:12 INFO  WEAVAIAPI:35 - *********Started TC_002_get_row_all_files **********
+2022-05-03 16:26:12 INFO  WEAVAIAPI:112 - *********  Finished TC_001_Add_by_path **********
+2022-05-03 16:27:50 INFO  WEAVAIAPI:35 - *********Started TC_002_get_row_all_files **********
+2022-05-03 16:29:10 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 16:29:11 INFO  WEAVAIAPI:35 - *********Started TC_002_get_row_all_files **********
+2022-05-03 16:29:11 INFO  WEAVAIAPI:112 - *********  Finished TC_002_get_row_all_files **********
+2022-05-03 16:31:34 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 16:31:37 INFO  WEAVAIAPI:35 - *********Started TC_002_get_row_all_files **********
+2022-05-03 16:31:37 INFO  WEAVAIAPI:112 - *********  Finished TC_002_get_row_all_files **********
+2022-05-03 16:32:29 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 16:32:31 INFO  WEAVAIAPI:35 - *********Started TC_002_get_row_all_files **********
+2022-05-03 16:32:31 INFO  WEAVAIAPI:112 - *********  Finished TC_002_get_row_all_files **********
+2022-05-03 16:34:39 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 16:34:41 INFO  WEAVAIAPI:35 - *********Started TC_002_get_row_all_files **********
+2022-05-03 16:34:41 INFO  WEAVAIAPI:112 - *********  Finished TC_002_get_row_all_files **********
+2022-05-03 16:55:05 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 16:55:07 INFO  WEAVAIAPI:35 - *********Started TC_002_get_row_all_files **********
+2022-05-03 16:55:07 INFO  WEAVAIAPI:112 - *********  Finished TC_002_get_row_all_files **********
+2022-05-03 16:57:51 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 16:57:52 INFO  WEAVAIAPI:35 - *********Started TC_002_get_row_all_files **********
+2022-05-03 16:57:53 INFO  WEAVAIAPI:112 - *********  Finished TC_002_get_row_all_files **********
+2022-05-03 17:01:23 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 17:01:25 INFO  WEAVAIAPI:35 - *********Started TC_002_get_row_all_files **********
+2022-05-03 17:01:25 INFO  WEAVAIAPI:114 - *********  Finished TC_002_get_row_all_files **********
+2022-05-03 17:24:23 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 17:24:25 INFO  WEAVAIAPI:35 - *********Started TC_002_get_row_all_files **********
+2022-05-03 17:24:25 INFO  WEAVAIAPI:115 - *********  Finished TC_002_get_row_all_files **********
+2022-05-03 17:28:54 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 17:28:56 INFO  WEAVAIAPI:35 - *********Started TC_002_get_row_all_files **********
+2022-05-03 17:28:56 INFO  WEAVAIAPI:115 - *********  Finished TC_002_get_row_all_files **********
+2022-05-03 17:48:46 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 17:48:48 INFO  WEAVAIAPI:35 - *********Started TC_002_get_row_all_files **********
+2022-05-03 17:48:48 INFO  WEAVAIAPI:116 - *********  Finished TC_002_get_row_all_files **********
+2022-05-03 18:18:55 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 18:18:56 INFO  WEAVAIAPI:38 - *********Started TC_002_get_row_all_files **********
+2022-05-03 18:18:56 INFO  WEAVAIAPI:134 - *********  Finished TC_002_get_row_all_files **********
+2022-05-03 18:20:20 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 18:20:22 INFO  WEAVAIAPI:38 - *********Started TC_002_get_row_all_files **********
+2022-05-03 18:20:22 INFO  WEAVAIAPI:134 - *********  Finished TC_002_get_row_all_files **********
+2022-05-03 18:25:48 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 18:25:50 INFO  WEAVAIAPI:38 - *********Started TC_002_get_row_all_files **********
+2022-05-03 18:25:50 INFO  WEAVAIAPI:134 - *********  Finished TC_002_get_row_all_files **********
+2022-05-03 18:31:45 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 18:31:47 INFO  WEAVAIAPI:38 - *********Started TC_002_get_row_all_files **********
+2022-05-03 18:31:47 INFO  WEAVAIAPI:134 - *********  Finished TC_002_get_row_all_files **********
+2022-05-03 18:35:02 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 18:35:04 INFO  WEAVAIAPI:38 - *********Started TC_002_get_row_all_files **********
+2022-05-03 18:35:04 INFO  WEAVAIAPI:134 - *********  Finished TC_002_get_row_all_files **********
+2022-05-03 18:44:42 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 18:44:44 INFO  WEAVAIAPI:40 - *********Started TC_002_get_row_all_files **********
+2022-05-03 18:44:44 INFO  WEAVAIAPI:126 - *********  Finished TC_002_get_row_all_files **********
+2022-05-03 18:46:47 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 18:46:49 INFO  WEAVAIAPI:40 - *********Started TC_002_get_row_all_files **********
+2022-05-03 18:46:49 INFO  WEAVAIAPI:127 - *********  Finished TC_002_get_row_all_files **********
+2022-05-03 19:03:46 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 19:03:48 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-03 19:03:48 INFO  WEAVAIAPI:135 - *********  Finished TC_002_get_row_all_files **********
+2022-05-03 19:10:04 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-03 19:10:06 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-03 19:10:06 INFO  WEAVAIAPI:135 - *********  Finished TC_002_get_row_all_files **********
+2022-05-04 10:20:46 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-04 10:20:48 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-04 10:20:48 INFO  WEAVAIAPI:135 - *********  Finished TC_002_get_row_all_files **********
+2022-05-04 10:21:58 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-04 10:22:00 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-04 10:22:00 INFO  WEAVAIAPI:135 - *********  Finished TC_002_get_row_all_files **********
+2022-05-04 14:22:32 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-04 14:22:34 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-04 14:22:39 INFO  WEAVAIAPI:135 - *********  Finished TC_002_get_row_all_files **********
+2022-05-04 14:23:35 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-04 14:23:36 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-04 14:23:41 INFO  WEAVAIAPI:135 - *********  Finished TC_002_get_row_all_files **********
+2022-05-04 14:26:40 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-04 14:26:41 INFO  WEAVAIAPI:100 - ***********  Checking Response Time **********
+2022-05-04 14:26:41 INFO  WEAVAIAPI:87 - ***********  Checking Respose Body **********
+2022-05-04 14:26:41 INFO  WEAVAIAPI:66 - ***********  Checking Status Code **********
+2022-05-04 14:26:41 INFO  WEAVAIAPI:76 - ***********  Checking Status Line **********
+2022-05-04 14:26:41 INFO  WEAVAIAPI:111 - *********  Finished TC_001_Add_by_path **********
+2022-05-04 14:26:57 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-04 14:26:58 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-04 14:27:03 INFO  WEAVAIAPI:135 - *********  Finished TC_002_get_row_all_files **********
+2022-05-04 14:33:13 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-04 14:33:15 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-04 14:33:21 INFO  WEAVAIAPI:135 - *********  Finished TC_002_get_row_all_files **********
+2022-05-04 16:04:25 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-04 16:04:27 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-04 16:04:33 INFO  WEAVAIAPI:135 - *********  Finished TC_002_get_row_all_files **********
+2022-05-04 16:07:14 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-04 16:07:16 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-04 16:07:22 INFO  WEAVAIAPI:129 - *********  Finished TC_002_get_row_all_files **********
+2022-05-04 16:08:23 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-04 16:08:25 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-04 16:08:29 INFO  WEAVAIAPI:129 - *********  Finished TC_002_get_row_all_files **********
+2022-05-04 16:13:07 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-04 16:13:08 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-04 16:13:08 INFO  WEAVAIAPI:129 - *********  Finished TC_002_get_row_all_files **********
+2022-05-04 16:14:47 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-04 16:14:48 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-04 16:14:48 INFO  WEAVAIAPI:129 - *********  Finished TC_002_get_row_all_files **********
+2022-05-04 16:16:28 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-04 16:16:30 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-04 16:16:30 INFO  WEAVAIAPI:129 - *********  Finished TC_002_get_row_all_files **********
+2022-05-04 16:54:49 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-04 16:54:51 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-04 16:54:56 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-04 16:54:56 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-04 16:54:56 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-04 16:54:56 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-04 16:54:56 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-04 16:54:56 INFO  WEAVAIAPI:138 - *********  Finished TC_002_get_row_all_files **********
+2022-05-04 16:55:50 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-04 16:55:52 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-04 16:55:58 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-04 16:55:58 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-04 16:55:58 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-04 16:55:58 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-04 16:55:58 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-04 16:55:58 INFO  WEAVAIAPI:138 - *********  Finished TC_002_get_row_all_files **********
+2022-05-04 21:02:34 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-04 21:02:35 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-04 21:02:42 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-04 21:02:42 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-04 21:02:42 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-04 21:02:43 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-04 21:02:43 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-04 21:02:43 INFO  WEAVAIAPI:138 - *********  Finished TC_002_get_row_all_files **********
+2022-05-05 00:23:13 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 00:23:15 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 00:23:21 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-05 00:23:21 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-05 00:23:21 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-05 00:23:21 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-05 00:23:21 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-05 00:23:21 INFO  WEAVAIAPI:138 - *********  Finished TC_002_get_row_all_files **********
+2022-05-05 00:29:48 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 00:29:50 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 00:29:55 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-05 00:29:55 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-05 00:29:55 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-05 00:29:55 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-05 00:29:55 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-05 00:29:55 INFO  WEAVAIAPI:138 - *********  Finished TC_002_get_row_all_files **********
+2022-05-05 00:38:33 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 00:38:35 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 00:38:41 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-05 00:38:41 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-05 00:38:41 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-05 00:38:41 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-05 00:38:41 INFO  WEAVAIAPI:118 - ***********  Checking Column Names **********
+2022-05-05 00:38:41 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-05 00:38:41 INFO  WEAVAIAPI:135 - *********  Finished TC_002_get_row_all_files **********
+2022-05-05 00:40:27 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 00:40:28 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 00:40:34 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-05 00:40:34 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-05 00:40:34 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-05 00:40:34 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-05 00:40:34 INFO  WEAVAIAPI:118 - ***********  Checking Column Names **********
+2022-05-05 00:40:35 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-05 00:40:35 INFO  WEAVAIAPI:135 - *********  Finished TC_002_get_row_all_files **********
+2022-05-05 00:41:41 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 00:41:43 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 00:41:49 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-05 00:41:49 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-05 00:41:49 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-05 00:41:49 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-05 00:41:49 INFO  WEAVAIAPI:118 - ***********  Checking Column Names **********
+2022-05-05 00:41:49 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-05 00:41:49 INFO  WEAVAIAPI:135 - *********  Finished TC_002_get_row_all_files **********
+2022-05-05 00:42:03 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 00:42:05 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 00:42:12 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-05 00:42:12 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-05 00:42:12 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-05 00:42:12 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-05 00:42:12 INFO  WEAVAIAPI:118 - ***********  Checking Column Names **********
+2022-05-05 00:42:12 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-05 00:42:12 INFO  WEAVAIAPI:135 - *********  Finished TC_002_get_row_all_files **********
+2022-05-05 00:44:00 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 00:44:02 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 00:44:09 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-05 00:44:09 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-05 00:44:09 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-05 00:44:09 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-05 00:44:09 INFO  WEAVAIAPI:118 - ***********  Checking Column Names **********
+2022-05-05 00:44:09 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-05 00:44:09 INFO  WEAVAIAPI:138 - *********  Finished TC_002_get_row_all_files **********
+2022-05-05 00:47:46 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 00:47:49 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 00:47:55 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-05 00:47:55 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-05 00:47:55 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-05 00:47:55 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-05 00:47:55 INFO  WEAVAIAPI:118 - ***********  Checking Column Names **********
+2022-05-05 00:47:55 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-05 00:47:55 INFO  WEAVAIAPI:138 - *********  Finished TC_002_get_row_all_files **********
+2022-05-05 00:51:10 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 00:51:12 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 00:51:18 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-05 00:51:18 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-05 00:51:18 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-05 00:51:18 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-05 00:51:18 INFO  WEAVAIAPI:118 - ***********  Checking Column Names **********
+2022-05-05 00:51:18 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-05 00:51:18 INFO  WEAVAIAPI:138 - *********  Finished TC_002_get_row_all_files **********
+2022-05-05 01:00:59 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 01:01:01 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 01:01:42 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 01:01:43 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 01:01:50 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-05 01:01:50 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-05 01:01:50 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-05 01:01:50 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-05 01:01:50 INFO  WEAVAIAPI:118 - ***********  Checking Column Names **********
+2022-05-05 01:01:50 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-05 01:01:50 INFO  WEAVAIAPI:138 - *********  Finished TC_002_get_row_all_files **********
+2022-05-05 01:03:21 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 01:03:23 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 01:03:29 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-05 01:03:29 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-05 01:03:29 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-05 01:03:30 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-05 01:03:30 INFO  WEAVAIAPI:118 - ***********  Checking Column Names **********
+2022-05-05 01:03:30 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-05 01:03:30 INFO  WEAVAIAPI:138 - *********  Finished TC_002_get_row_all_files **********
+2022-05-05 01:06:57 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 01:06:59 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 01:07:04 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-05 01:07:04 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-05 01:07:04 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-05 01:07:04 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-05 01:07:04 INFO  WEAVAIAPI:118 - ***********  Checking Column Names **********
+2022-05-05 01:07:04 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-05 01:07:04 INFO  WEAVAIAPI:138 - *********  Finished TC_002_get_row_all_files **********
+2022-05-05 01:09:33 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 01:09:35 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 01:09:40 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-05 01:09:40 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-05 01:09:40 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-05 01:09:40 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-05 01:09:40 INFO  WEAVAIAPI:118 - ***********  Checking Column Names **********
+2022-05-05 01:09:40 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-05 01:09:40 INFO  WEAVAIAPI:138 - *********  Finished TC_002_get_row_all_files **********
+2022-05-05 01:12:28 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 01:12:29 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 01:12:29 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-05 01:12:29 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-05 01:12:29 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-05 01:12:29 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-05 01:12:29 INFO  WEAVAIAPI:118 - ***********  Checking Column Names **********
+2022-05-05 01:12:29 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-05 01:12:29 INFO  WEAVAIAPI:138 - *********  Finished TC_002_get_row_all_files **********
+2022-05-05 01:13:33 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 01:13:34 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 01:13:40 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-05 01:13:40 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-05 01:13:40 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-05 01:13:40 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-05 01:13:40 INFO  WEAVAIAPI:118 - ***********  Checking Column Names **********
+2022-05-05 01:13:40 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-05 01:13:40 INFO  WEAVAIAPI:138 - *********  Finished TC_002_get_row_all_files **********
+2022-05-05 01:16:16 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 01:16:18 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 01:18:31 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 01:18:33 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 01:18:39 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-05 01:18:39 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-05 01:18:39 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-05 01:18:39 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-05 01:18:39 INFO  WEAVAIAPI:118 - ***********  Checking Column Names **********
+2022-05-05 01:18:39 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-05 01:18:39 INFO  WEAVAIAPI:138 - *********  Finished TC_002_get_row_all_files **********
+2022-05-05 01:19:46 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 01:19:47 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 01:19:53 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-05 01:19:53 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-05 01:19:53 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-05 01:19:53 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-05 01:19:53 INFO  WEAVAIAPI:118 - ***********  Checking Column Names **********
+2022-05-05 01:19:53 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-05 01:19:53 INFO  WEAVAIAPI:138 - *********  Finished TC_002_get_row_all_files **********
+2022-05-05 01:21:01 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 01:21:03 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 01:21:09 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-05 01:21:09 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-05 01:21:09 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-05 01:21:09 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-05 01:21:09 INFO  WEAVAIAPI:118 - ***********  Checking Column Names **********
+2022-05-05 01:21:09 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-05 01:21:09 INFO  WEAVAIAPI:138 - *********  Finished TC_002_get_row_all_files **********
+2022-05-05 01:33:10 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 01:33:12 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 01:33:18 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-05 01:33:18 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-05 01:33:18 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-05 01:33:18 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-05 01:33:18 INFO  WEAVAIAPI:118 - ***********  Checking Column Names **********
+2022-05-05 01:33:18 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-05 01:33:18 INFO  WEAVAIAPI:138 - *********  Finished TC_002_get_row_all_files **********
+2022-05-05 01:42:20 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 01:42:22 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 01:42:27 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-05 01:42:27 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-05 01:42:27 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-05 01:42:28 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-05 01:42:28 INFO  WEAVAIAPI:118 - ***********  Checking Column Names **********
+2022-05-05 01:42:28 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-05 01:42:28 INFO  WEAVAIAPI:138 - *********  Finished TC_002_get_row_all_files **********
+2022-05-05 01:43:16 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 01:43:18 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 01:43:23 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-05 01:43:23 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-05 01:43:23 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-05 01:43:24 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-05 01:43:24 INFO  WEAVAIAPI:118 - ***********  Checking Column Names **********
+2022-05-05 01:43:24 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-05 01:43:24 INFO  WEAVAIAPI:138 - *********  Finished TC_002_get_row_all_files **********
+2022-05-05 01:46:11 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 01:46:12 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 01:46:17 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-05 01:46:17 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-05 01:46:17 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-05 01:46:17 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-05 01:46:17 INFO  WEAVAIAPI:118 - ***********  Checking Column Names **********
+2022-05-05 01:46:17 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-05 01:46:17 INFO  WEAVAIAPI:138 - *********  Finished TC_002_get_row_all_files **********
+2022-05-05 01:47:41 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 01:47:43 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 01:47:48 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-05 01:47:48 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-05 01:47:48 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-05 01:47:48 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-05 01:47:48 INFO  WEAVAIAPI:118 - ***********  Checking Column Names **********
+2022-05-05 01:47:48 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-05 01:47:48 INFO  WEAVAIAPI:138 - *********  Finished TC_002_get_row_all_files **********
+2022-05-05 01:48:23 INFO  WEAVAIAPI:39 - *********Started TC_001_Add_by_path **********
+2022-05-05 01:48:25 INFO  WEAVAIAPI:42 - *********Started TC_002_get_row_all_files **********
+2022-05-05 01:48:30 INFO  WEAVAIAPI:98 - ***********  Checking Response  Time **********
+2022-05-05 01:48:30 INFO  WEAVAIAPI:85 - ***********  Checking Response  Body **********
+2022-05-05 01:48:30 INFO  WEAVAIAPI:109 - ***********  Checking Row   Count **********
+2022-05-05 01:48:30 INFO  WEAVAIAPI:64 - ***********  Checking Status Code **********
+2022-05-05 01:48:30 INFO  WEAVAIAPI:118 - ***********  Checking Column Names **********
+2022-05-05 01:48:30 INFO  WEAVAIAPI:74 - ***********  Checking Status Line **********
+2022-05-05 01:48:30 INFO  WEAVAIAPI:139 - *********  Finished TC_002_get_row_all_files **********

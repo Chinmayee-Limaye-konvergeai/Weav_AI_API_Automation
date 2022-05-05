@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="WeavAPISuite">
+
+	<test thread-count="5" name="DataBrowserRestAPITest">
+		<classes>
+			<class name="com.weavapi.testCases.Data_Browser_API.TC_001_Add_by_path" />
+			<class name="com.weavapi.testCases.Data_Browser_API.TC_002_get_row_all_files" />
+			
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -12,10 +12,14 @@ public class add_body_pojo_get_row_all {
 	private List<String> show_cols;
 	//@JsonIgnore
 	private List<RowFilter> row_filter;
+	//@JsonIgnore
     private SortObj sort_obj;
+	//@JsonIgnore
 	private List<Defaultfilter> default_filter;
 	private String file_name;
+	//@JsonIgnore
 	private int row_count;
+	//@JsonIgnore
 	private int start_row;
 	
 	

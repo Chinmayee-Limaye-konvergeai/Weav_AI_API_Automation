@@ -10,26 +10,38 @@ import com.weavapi.pojo.RowFilter;
 import com.weavapi.pojo.SortObj;
 import com.weavapi.pojo.add_body_pojo_get_row_all;
 import com.weavapi.testCases.Data_Browser_API.TC_001_Add_by_path;
+import com.weavapi.utilities.ReadConfig;
 
 public class Parse_json_body {
-
-	public static int Row_count = 200;
-	public static String file_name = "tinder.parquet";
+	 
+	public static int Row_count = 50;
+	public static String file_name = "homes.parquet";
 	static String filter_name="remove_missing_values";
 	
 	public static List<String> myList = new ArrayList<String>();
-	static String[] columnarray = new String[] { "Single", "Question", "Count", "Segment Description", "Answer",
-			"Percentage", "Segment Type", "timestamp" };
+	//static String[] columnarray = new String[] { "Single", "Question", "Count", "Segment Description", "Answer",
+			//"Percentage", "Segment Type", "timestamp" };
+	
+	static String[] columnarray = new String[] { "Sell", "List", "Living", "Rooms", "Beds",
+			"Baths", "Age", "Acres" ,"Taxes"};
+	
+	
 	static int sizes = columnarray.length;
 	static int lowerlimit =1;
-	static int upperlimit=50;
-	static String row_filter_columon="Count";
-	static String datatype_rowfiltercolumn ="int";
+	static int upperlimit=500;
+	static String row_filter_columon="Living";
+	static String datatype_rowfiltercolumn ="float";
 	
-	public static String sort_column="Question";
+	public static String sort_column="Living";
 	
-	public static String order="DSC";
+	public static String order="ASC";
 	static int start_row=1;
+	
+	
+	public static String excel_file_name="/home/chinmayee/eclipse-workspace/Weav_AI_API_Automation/DataFiles/homes.xlsx";
+	
+	
+	
 
 	/*
 	 * public static String GetBodyGetRow()
@@ -77,6 +89,7 @@ public class Parse_json_body {
 		add_body_pojo_get_row_all pojoobj = new add_body_pojo_get_row_all();
 		pojoobj.setDataset_id(TC_001_Add_by_path.datasetid);
 		pojoobj.setVersion_id(TC_001_Add_by_path.versionid);
+		
 
 		for (int i = 0; i < sizes; i++) {
 			myList.add(columnarray[i]);

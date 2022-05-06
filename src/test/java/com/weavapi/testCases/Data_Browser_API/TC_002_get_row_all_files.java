@@ -26,13 +26,16 @@ import org.testng.annotations.Test;
 
 import com.weavapi.base.Parse_json_body;
 import com.weavapi.base.Test_Base;
+import com.weavapi.utilities.Check_sorted_columns;
 import com.weavapi.utilities.ReadConfig;
+import com.weavapi.utilities.Read_excel_utility;
 
 public class TC_002_get_row_all_files extends   TC_001_Add_by_path{
 	
 	Response response;
 	public static JsonPath js;
 	String filename=Parse_json_body.file_name;
+	
   
 	
     
@@ -52,6 +55,8 @@ public class TC_002_get_row_all_files extends   TC_001_Add_by_path{
 	.when().post("/api/v1/get_rows")
 	.then().extract().response();
 	
+	
+	System.out.println("**********************************Resonse Data*************************************");
 	String string_resp=response.asString();
 	
 	System.out.println(string_resp);
@@ -142,150 +147,39 @@ public class TC_002_get_row_all_files extends   TC_001_Add_by_path{
 		{
 			
 			logger.info("***********  Checking Sorted  Columns **********");
-			
-			String columnname=Parse_json_body.sort_column;
-			System.out.println(columnname);
-			String sortorder=Parse_json_body.order;
 			boolean bool;
-			int size=js.getInt("data[\""+filename+"\"].data.size()");
 			
-			
-			//Object value=js.get("data[\""+filename+"\"].data[0]."+columnname+"");
-			
-			Object value=js.get("data[\""+filename+"\"].data[0][\""+columnname+"\"]");
-			//js.get("data[\"tinder.parquet\"].data[0].Count")
-			
-			System.out.println(value);
-			
-			String dataType = value.getClass().getSimpleName();
-			System.out.println(dataType);
-			
-			if(dataType.equalsIgnoreCase("Integer"))
-			{
-			int strAr1;
-			List<Integer> columnlist = new ArrayList<Integer>();
-			
-			for (int i=0;i<size;i++)
-			{
-				//strAr1=(js.get("data[\""+filename+"\"].data["+i+"]."+columnname+""));
-				strAr1=js.get("data[\""+filename+"\"].data["+i+"][\""+columnname+"\"]");
-			
-				
-			
-				
-				columnlist.add(strAr1);
-		   }
-			
-			List <Integer> copy = new ArrayList<Integer>(columnlist);
-			if(sortorder =="ASC")
-			{
-			Collections.sort(copy);
-			}
-			else if(sortorder =="DSC")
-			{
-				Collections.sort(copy, Collections.reverseOrder());
-			}
-			bool=copy.equals(columnlist);
+			Check_sorted_columns Check_obj=new Check_sorted_columns();
+			bool =Check_obj.check_sorted(js);
 			Assert.assertTrue(bool);
 			
-			}
-			
-			else if (dataType.equalsIgnoreCase("String"))
-			{
-			String strAr1;
-			List<String> columnlist = new ArrayList<String>();
-			
-			for (int i=0;i<size;i++)
-			{
-				//strAr1=(js.get("data[\""+filename+"\"].data["+i+"]."+columnname+""));
-				strAr1=js.get("data[\""+filename+"\"].data["+i+"][\""+columnname+"\"]");
-			
-				
-				columnlist.add(strAr1);
-		   }
-			
-			System.out.println(columnlist);
-			List <String> copy = new ArrayList<String>(columnlist);
-			if (sortorder =="ASC")
-			{
-			Collections.sort(copy);
-			
-			}
-			else if(sortorder =="DSC")
-			{
-				Collections.sort(copy, Collections.reverseOrder());
-				System.out.println(copy);
-			}
-			    bool=copy.equals(columnlist);
-			    Assert.assertTrue(bool);
-			
-			}
 			
 			
-			else if(dataType.equalsIgnoreCase("Boolean"))
-			{
-				boolean strAr1;
-			List<Boolean> columnlist = new ArrayList<Boolean>();
 			
-			for (int i=0;i<size;i++)
-			{
-				//strAr1=(js.get("data[\""+filename+"\"].data["+i+"]."+columnname+""));
-				strAr1=js.get("data[\""+filename+"\"].data["+i+"][\""+columnname+"\"]");
+		}
+		
+		@Test
+		void CheckSummary() throws Exception
+		{
 			
-				
+			logger.info("***********  Checking Columns and Rows Count Summary **********");
 			
-				
-				columnlist.add(strAr1);
-		   }
+			 Read_excel_utility excelObj = new Read_excel_utility(Parse_json_body.excel_file_name);
+		       int colCount = excelObj.getColumnCount();
+		      // System.out.println("Total Columns in the Excel : "+colCount);
+		       int rowCount = excelObj.getRowCount();
+		       //System.out.println("Total Rows in the Excel : "+rowCount);
+		      // int numericalCount=excelObj.checknumerical();
+		       
+		       int summary_total_column=js.getInt("data[\""+filename+"\"].summary.total_columns");
+		       int summary_total_rows=js.getInt("data[\""+filename+"\"].summary.total_rows");
+		     //  int summary_total_numerical=js.getInt("data[\""+filename+"\"].summary.numerical_cols");
+		       
+		       Assert.assertEquals(summary_total_column,colCount);
+		       Assert.assertEquals(summary_total_rows,rowCount);
+		       //Assert.assertEquals(summary_total_numerical, numericalCount);
+		       
 			
-			List <Boolean> copy = new ArrayList<Boolean>(columnlist);
-			System.out.println(columnlist);
-			if(sortorder =="ASC")
-			{
-			Collections.sort(copy);
-			}
-			else if(sortorder =="DSC")
-			{
-				Collections.sort(copy, Collections.reverseOrder());
-				System.out.println(columnlist);
-			}
-			bool=copy.equals(columnlist);
-			Assert.assertTrue(bool);
-			
-			}
-			
-			
-			else if(dataType.equalsIgnoreCase("Float"))
-			{
-				float strAr1;
-			List<Float> columnlist = new ArrayList<Float>();
-			
-			for (int i=0;i<size;i++)
-			{
-				//strAr1=(js.get("data[\""+filename+"\"].data["+i+"]."+columnname+""));
-				strAr1=js.get("data[\""+filename+"\"].data["+i+"][\""+columnname+"\"]");
-			
-				
-			
-				
-				columnlist.add(strAr1);
-		   }
-			
-			List <Float> copy = new ArrayList<Float>(columnlist);
-			System.out.println(columnlist);
-			if(sortorder =="ASC")
-			{
-			Collections.sort(copy);
-			}
-			else if(sortorder =="DSC")
-			{
-				Collections.sort(copy, Collections.reverseOrder());
-				System.out.println(columnlist);
-			}
-			bool=copy.equals(columnlist);
-			Assert.assertTrue(bool);
-			
-			}
 			
 			
 		}

@@ -6,6 +6,7 @@ import java.util.List;
 import com.weavapi.pojo.Bet;
 import com.weavapi.pojo.Defaultfilter;
 import com.weavapi.pojo.Filters;
+import com.weavapi.pojo.Pojo_get_col_stats;
 import com.weavapi.pojo.RowFilter;
 import com.weavapi.pojo.SortObj;
 import com.weavapi.pojo.add_body_pojo_get_row_all;
@@ -15,33 +16,37 @@ import com.weavapi.utilities.ReadConfig;
 public class Parse_json_body {
 	 
 	public static int Row_count = 50;
-	public static String file_name = "homes.parquet";
-	static String filter_name="remove_missing_values";
+	public static String file_name = "tinder1.parquet";
+	static int start_row=1;
+	
+	
+	static String default_filter_name="remove_missing_values";
+	static String default_filter_name_col="Sell";
+	
 	
 	public static List<String> myList = new ArrayList<String>();
+	
 	//static String[] columnarray = new String[] { "Single", "Question", "Count", "Segment Description", "Answer",
 			//"Percentage", "Segment Type", "timestamp" };
 	
 	static String[] columnarray = new String[] { "Sell", "List", "Living", "Rooms", "Beds",
-			"Baths", "Age", "Acres" ,"Taxes"};
-	
-	
+			"Baths", "Age", "Acres","Taxes"};
 	static int sizes = columnarray.length;
+	
+	
 	static int lowerlimit =1;
 	static int upperlimit=500;
 	static String row_filter_columon="Living";
 	static String datatype_rowfiltercolumn ="float";
 	
 	public static String sort_column="Living";
-	
 	public static String order="ASC";
-	static int start_row=1;
 	
 	
-	public static String excel_file_name="/home/chinmayee/eclipse-workspace/Weav_AI_API_Automation/DataFiles/homes.xlsx";
+	public static String excel_file_name="/home/chinmayee/eclipse-workspace/Weav_AI_API_Automation/DataFiles/tinder.xlsx";
 	
 	
-	
+	static String[] Get_col_stats_columnarray = new String[] {"Count","Percentage","Segment Type"};
 
 	/*
 	 * public static String GetBodyGetRow()
@@ -88,7 +93,13 @@ public class Parse_json_body {
 		
 		add_body_pojo_get_row_all pojoobj = new add_body_pojo_get_row_all();
 		pojoobj.setDataset_id(TC_001_Add_by_path.datasetid);
+		//pojoobj.setDataset_id("58edd115-f7eb-436f-b9b9-303783a80a00");
 		pojoobj.setVersion_id(TC_001_Add_by_path.versionid);
+		
+		//pojoobj.setVersion_id("1.0.1652097194");
+		
+		pojoobj.setUser_id("Sheshan01");
+		pojoobj.setSession_id("session007");
 		
 
 		for (int i = 0; i < sizes; i++) {
@@ -124,7 +135,8 @@ public class Parse_json_body {
 		pojoobj.setSort_obj(so);
 
 		Defaultfilter d = new Defaultfilter();
-		d.setFilter_name(filter_name);
+		d.setFilter_name(default_filter_name);
+		d.setCol_name(default_filter_name_col);
 
 		List<Defaultfilter> df = new ArrayList<>();
 		df.add(d);
@@ -136,4 +148,34 @@ public class Parse_json_body {
 
 		return pojoobj;
 	}
+	
+	
+	public static Pojo_get_col_stats GetBodyFromPojoGetColStats() 
+	
+	{
+		
+		        Pojo_get_col_stats obj1=new Pojo_get_col_stats(); 
+		        
+		        for (int i = 0; i < Get_col_stats_columnarray.length; i++) {
+					myList.add(Get_col_stats_columnarray[i]);
+
+				}
+		        
+		         obj1.setCol_names(myList);
+				// obj1.setDataset_id(TC_001_Add_by_path.datasetid);
+		         
+		         obj1.setDataset_id("5c9167cd-005c-4411-b5b3-e31ac589eea5");
+		         obj1.setVersion_id("1.0.1652271894"); 
+				 //obj1.setVersion_id(TC_001_Add_by_path.versionid); 
+				 obj1.setFile_name(file_name);
+				 obj1.setSession_id("session007"); 
+				 obj1.setUser_id("Sheshan01");
+				 
+				 return obj1;
+		
+	}
+	
+	
+	
+	
 }

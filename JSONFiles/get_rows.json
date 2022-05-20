@@ -1,0 +1,44 @@
+{
+    "dataset_id": "{{dataset_id}}",
+    "version_id": "{{version_id}}",
+    "user_id": "Sheshan01",
+    "session_id": "session007",
+    "file_name": "tinder.csv",
+    "sort_obj" : {"col_name":"Percentage", "order":"DESC"},
+     "row_count" : 15,
+     "show_cols": [
+        "Single",
+        "Question",
+        "Segment Type",
+        "Count",
+        "Segment Description",
+        "Answer",
+        "Percentage",
+        "timestamp"
+    ],
+    "operations": [
+        {
+            "opr_name": "autofill_missing_values",
+            "method": "interpolate",
+            "col_names":["Count"]
+        },
+
+        {
+            "opr_name": "autofill_missing_values",
+            "method": "forward_fill",
+            "col_names":["Single","Segment Type","timestamp"]
+        },
+        {
+            "opr_name": "autofill_missing_values",
+            "method": "backward_fill",
+            "col_names":["Percentage","Question","Answer"]
+        },
+        {
+            "opr_name": "autofill_missing_values",
+            "method": "custom",
+            "args": {"values":{"Email":"konverge","Segment Description":"RTMNU University"}}
+        }
+    ]
+    
+    
+}

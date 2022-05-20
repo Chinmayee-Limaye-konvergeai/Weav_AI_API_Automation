@@ -2,11 +2,18 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="WeavAPISuite">
-
+<listeners>
+<listener class-name="com.weavapi.base.Listeners"/>
+</listeners>
 	<test thread-count="5" name="DataBrowserRestAPITest">
+<groups>	
+				<run>	
+   					 <include name="positive_test_case" />	
+        		</run>	
+       		</groups>	
 		<classes>
 			<class name="com.weavapi.testCases.Data_Browser_API.TC_001_Add_by_path" />
-			<class name="com.weavapi.testCases.Data_Browser_API.TC_002_get_row_all_files" />
+			<class name="com.weavapi.testCases.Data_Browser_API.TC_002_get_row_all_files_map" />
 			
 
 		</classes>

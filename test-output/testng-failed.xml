@@ -3,16 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.weavapi.testCases.Data_Browser_API.TC_002_get_row_all_files">
+      <class name="com.weavapi.testCases.Data_Browser_API.TC_002_get_row_all_files_map">
         <methods>
-          <include name="checkRowCount"/>
-          <include name="CheckSummary"/>
+          <include name="CheckBadRequest"/>
           <include name="tearDown"/>
+          <include name="CheckFileNotFound"/>
           <include name="getrowapi"/>
-          <include name="setup"/>
           <include name="addbypath"/>
         </methods>
-      </class> <!-- com.weavapi.testCases.Data_Browser_API.TC_002_get_row_all_files -->
+      </class> <!-- com.weavapi.testCases.Data_Browser_API.TC_002_get_row_all_files_map -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

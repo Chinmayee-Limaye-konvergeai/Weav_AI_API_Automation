@@ -96,8 +96,15 @@ public class TC_002_get_row_all_files extends   TC_001_Add_by_path{
 			
 		}
 		
-		
-		
+		@Test
+	 void checkmessage()
+		{
+		 logger.info("***********  Checking Message ***************");
+			
+		 String message=js.get("status.result");
+			Assert.assertEquals(message, "success");
+			
+		}
 		
 		
 		@Test

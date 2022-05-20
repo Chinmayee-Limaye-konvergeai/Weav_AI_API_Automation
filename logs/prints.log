@@ -1,0 +1,114 @@
+14:52:47.346 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Row   Count **********
+14:52:47.400 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Sorted  Columns **********
+14:52:47.539 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Status Code **********
+14:52:47.541 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Column Names **********
+14:52:47.552 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Message ***************
+14:52:47.561 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Status Line **********
+14:53:13.974 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - *********Started TC_001_Add_by_path **********
+14:53:15.779 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - *********Started TC_002_get_row_all_files **********
+14:53:19.253 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Status Code of 1st **********
+14:53:19.269 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Response  Time **********
+14:53:19.275 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Response  Body **********
+14:53:19.282 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Row   Count **********
+14:53:19.370 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Sorted  Columns **********
+14:53:19.521 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Status Code **********
+14:53:19.524 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Column Names **********
+14:53:19.533 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Message ***************
+14:53:19.544 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Status Line **********
+15:00:26.199 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - *********Started TC_001_Add_by_path **********
+15:00:28.404 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - *********Started TC_002_get_row_all_files **********
+15:00:32.007 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Status Code of 1st **********
+15:00:32.015 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Response  Time **********
+15:00:32.017 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Response  Body **********
+15:00:32.019 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Row   Count **********
+15:00:32.074 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Sorted  Columns **********
+15:00:32.214 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Status Code **********
+15:00:32.216 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Column Names **********
+15:00:32.226 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Message ***************
+15:00:32.236 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Status Line **********
+15:17:36.857 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - *********Started TC_001_Add_by_path **********
+15:17:38.425 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - *********Started TC_002_get_row_all_files **********
+15:17:41.506 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Columns and Rows Count Summary **********
+15:17:41.971 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Response  Time **********
+15:17:41.978 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Response  Body **********
+15:17:41.981 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Row   Count **********
+15:17:42.005 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Sorted  Columns **********
+15:17:42.141 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Status Code **********
+15:17:42.142 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Column Names **********
+15:17:42.149 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Message ***************
+15:17:42.158 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking Status Line **********
+15:17:42.161 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - *********  Finished TC_002_get_row_all_files **********
+15:18:00.069 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - *********Started TC_001_Add_by_path **********
+15:18:02.271 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - *********Started TC_002_get_row_all_files **********
+15:18:05.466 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking required field **********
+15:18:05.473 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - *********  Finished TC_002_get_row_all_files **********
+15:19:06.376 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - *********Started TC_001_Add_by_path **********
+15:19:08.462 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - *********Started TC_002_get_row_all_files **********
+15:19:08.556 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - ***********  Checking required field **********
+15:19:08.572 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - *********  Finished TC_002_get_row_all_files **********
+2022-05-20 15:58:42 INFO  Deserializers$Base:45 - *********Started TC_001_Add_by_path **********
+2022-05-20 15:58:44 INFO  Deserializers$Base:110 - ***********  Checking Response Time **********
+2022-05-20 15:58:44 INFO  Deserializers$Base:96 - ***********  Checking Respose Body **********
+2022-05-20 15:58:44 INFO  Deserializers$Base:73 - ***********  Checking Status Code of 1st **********
+2022-05-20 15:58:44 INFO  Deserializers$Base:123 - ***********  Checking Message ***************
+2022-05-20 15:58:44 INFO  Deserializers$Base:84 - ***********  Checking Status Line of 1st **********
+2022-05-20 15:58:44 INFO  Deserializers$Base:138 - *********  Finished TC_001_Add_by_path **********
+2022-05-20 16:36:50 INFO  Deserializers$Base:45 - *********Started TC_001_Add_by_path **********
+2022-05-20 16:36:52 INFO  Deserializers$Base:97 - *********Started TC_002_get_row_all_files **********
+2022-05-20 16:36:54 INFO  Deserializers$Base:288 - ***********  Checking required field **********
+2022-05-20 16:36:54 INFO  Deserializers$Base:301 - ***********  Checking file  is present **********
+2022-05-20 16:36:54 INFO  Deserializers$Base:261 - ***********  Checking Columns and Rows Count Summary **********
+2022-05-20 16:36:55 INFO  Deserializers$Base:199 - ***********  Checking Response  Time **********
+2022-05-20 16:36:55 INFO  Deserializers$Base:179 - ***********  Checking Response  Body **********
+2022-05-20 16:36:55 INFO  Deserializers$Base:212 - ***********  Checking Row   Count **********
+2022-05-20 16:36:55 INFO  Deserializers$Base:244 - ***********  Checking Sorted  Columns **********
+2022-05-20 16:36:55 INFO  Deserializers$Base:158 - ***********  Checking Status Code **********
+2022-05-20 16:36:55 INFO  Deserializers$Base:221 - ***********  Checking Column Names **********
+2022-05-20 16:36:55 INFO  Deserializers$Base:188 - ***********  Checking Message ***************
+2022-05-20 16:36:55 INFO  Deserializers$Base:168 - ***********  Checking Status Line **********
+2022-05-20 16:36:55 INFO  Deserializers$Base:313 - *********  Finished TC_002_get_row_all_files **********
+2022-05-20 17:51:44 INFO  Deserializers$Base:45 - *********Started TC_001_Add_by_path **********
+2022-05-20 17:51:46 INFO  Deserializers$Base:99 - *********Started TC_002_get_row_all_files **********
+2022-05-20 17:51:52 INFO  Deserializers$Base:285 - ***********  Checking Columns should not be null **********
+2022-05-20 17:51:52 INFO  Deserializers$Base:330 - ***********  Checking required field **********
+2022-05-20 17:51:52 INFO  Deserializers$Base:343 - ***********  Checking file  is present **********
+2022-05-20 17:51:52 INFO  Deserializers$Base:256 - ***********  Checking Columns and Rows Count Summary **********
+2022-05-20 17:51:52 INFO  Deserializers$Base:194 - ***********  Checking Response  Time **********
+2022-05-20 17:51:52 INFO  Deserializers$Base:174 - ***********  Checking Response  Body **********
+2022-05-20 17:51:52 INFO  Deserializers$Base:207 - ***********  Checking Row   Count **********
+2022-05-20 17:51:52 INFO  Deserializers$Base:239 - ***********  Checking Sorted  Columns **********
+2022-05-20 17:51:52 INFO  Deserializers$Base:153 - ***********  Checking Status Code **********
+2022-05-20 17:51:52 INFO  Deserializers$Base:216 - ***********  Checking Column Names **********
+2022-05-20 17:51:52 INFO  Deserializers$Base:183 - ***********  Checking Message ***************
+2022-05-20 17:51:52 INFO  Deserializers$Base:163 - ***********  Checking Status Line **********
+2022-05-20 17:51:52 INFO  Deserializers$Base:355 - *********  Finished TC_002_get_row_all_files **********
+2022-05-20 17:59:20 INFO  Deserializers$Base:45 - *********Started TC_001_Add_by_path **********
+2022-05-20 17:59:24 INFO  Deserializers$Base:99 - *********Started TC_002_get_row_all_files **********
+2022-05-20 17:59:32 INFO  Deserializers$Base:285 - ***********  Checking Columns should not be null **********
+2022-05-20 17:59:36 INFO  Deserializers$Base:330 - ***********  Checking required field **********
+2022-05-20 17:59:36 INFO  Deserializers$Base:343 - ***********  Checking file  is present **********
+2022-05-20 17:59:36 INFO  Deserializers$Base:256 - ***********  Checking Columns and Rows Count Summary **********
+2022-05-20 17:59:37 INFO  Deserializers$Base:194 - ***********  Checking Response  Time **********
+2022-05-20 17:59:37 INFO  Deserializers$Base:174 - ***********  Checking Response  Body **********
+2022-05-20 17:59:37 INFO  Deserializers$Base:207 - ***********  Checking Row   Count **********
+2022-05-20 17:59:37 INFO  Deserializers$Base:239 - ***********  Checking Sorted  Columns **********
+2022-05-20 17:59:37 INFO  Deserializers$Base:153 - ***********  Checking Status Code **********
+2022-05-20 17:59:37 INFO  Deserializers$Base:216 - ***********  Checking Column Names **********
+2022-05-20 17:59:37 INFO  Deserializers$Base:183 - ***********  Checking Message ***************
+2022-05-20 17:59:37 INFO  Deserializers$Base:163 - ***********  Checking Status Line **********
+2022-05-20 17:59:37 INFO  Deserializers$Base:355 - *********  Finished TC_002_get_row_all_files **********
+2022-05-20 18:04:54 INFO  Deserializers$Base:45 - *********Started TC_001_Add_by_path **********
+2022-05-20 18:04:56 INFO  Deserializers$Base:99 - *********Started TC_002_get_row_all_files **********
+2022-05-20 18:05:02 INFO  Deserializers$Base:285 - ***********  Checking Columns should not be null **********
+2022-05-20 18:05:03 INFO  Deserializers$Base:330 - ***********  Checking required field **********
+2022-05-20 18:05:03 INFO  Deserializers$Base:343 - ***********  Checking file  is present **********
+2022-05-20 18:05:03 INFO  Deserializers$Base:256 - ***********  Checking Columns and Rows Count Summary **********
+2022-05-20 18:05:04 INFO  Deserializers$Base:194 - ***********  Checking Response  Time **********
+2022-05-20 18:05:04 INFO  Deserializers$Base:174 - ***********  Checking Response  Body **********
+2022-05-20 18:05:04 INFO  Deserializers$Base:207 - ***********  Checking Row   Count **********
+2022-05-20 18:05:04 INFO  Deserializers$Base:239 - ***********  Checking Sorted  Columns **********
+2022-05-20 18:05:04 INFO  Deserializers$Base:153 - ***********  Checking Status Code **********
+2022-05-20 18:05:04 INFO  Deserializers$Base:216 - ***********  Checking Column Names **********
+2022-05-20 18:05:04 INFO  Deserializers$Base:183 - ***********  Checking Message ***************
+2022-05-20 18:05:04 INFO  Deserializers$Base:163 - ***********  Checking Status Line **********
+2022-05-20 18:05:04 INFO  Deserializers$Base:355 - *********  Finished TC_002_get_row_all_files **********

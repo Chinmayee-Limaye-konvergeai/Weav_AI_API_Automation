@@ -7,6 +7,7 @@ import java.util.List;
 import org.testng.Assert;
 
 import com.weavapi.base.Parse_json_body;
+import com.weavapi.testCases.Data_Browser_API.TC_002_get_row_all_files_map;
 
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -14,10 +15,10 @@ import io.restassured.response.Response;
 public class Check_sorted_columns {
 	
 	JsonPath json;
-	String columnname=Parse_json_body.sort_column;
-	String sortorder=Parse_json_body.order;
+	String columnname=TC_002_get_row_all_files_map.sort_column;
+	String sortorder=TC_002_get_row_all_files_map.order;
 	boolean flag;
-	String filename=Parse_json_body.file_name;
+	String filename=TC_002_get_row_all_files_map.filename;
 	
 	
 	public  boolean check_sorted(JsonPath json)

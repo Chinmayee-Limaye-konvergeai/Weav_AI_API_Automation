@@ -25,7 +25,7 @@ public class ReadConfig {
 
 			prop=new Properties();
 
-			FileInputStream fis=new FileInputStream("/home/chinmayee/eclipse-workspace/Weav_AI_API_Automation/src/test/java/com/weavapi/utilities/config.properties");
+			FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"/src/test/java/com/weavapi/utilities/config.properties");
 
 			prop.load(fis);
 

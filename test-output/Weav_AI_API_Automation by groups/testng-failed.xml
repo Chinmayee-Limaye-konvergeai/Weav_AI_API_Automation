@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Weav_AI_API_Automation by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-negative_test_case(failed)">
+    <groups>
+      <run>
+        <include name="negative_test_case"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.weavapi.testCases.Data_Browser_API.TC_002_get_row_all_files_map">
+        <methods>
+          <include name="CheckBadRequest"/>
+          <include name="tearDown"/>
+          <include name="getrowapi"/>
+          <include name="addbypath"/>
+        </methods>
+      </class> <!-- com.weavapi.testCases.Data_Browser_API.TC_002_get_row_all_files_map -->
+    </classes>
+  </test> <!-- GRP-negative_test_case(failed) -->
+</suite> <!-- Failed suite [Weav_AI_API_Automation by groups] -->
